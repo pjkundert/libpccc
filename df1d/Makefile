@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS = -Wall -O2 `xml2-config --cflags`
+CFLAGS = -Wall -O2 -fPIC `xml2-config --cflags`
 INSTALL = install
 BINDIR = /usr/local/bin
 LIBS = `xml2-config --libs`

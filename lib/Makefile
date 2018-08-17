@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS = -Wall -O2
+CFLAGS = -Wall -O2 -fPIC
 LIBS =
 LIBDIR = /usr/local/lib
 INCLUDEDIR = /usr/local/include
